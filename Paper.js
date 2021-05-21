@@ -18,7 +18,7 @@ class Paper {
 
         this.image = loadImage("paper.png");
 
-        this.body = Bodies.circle(x, y, this.r, options);
+        this.body = Bodies.circle(x,y,(this.r-20)/2,options);
 
         World.add(world, this.body);
 
@@ -33,7 +33,7 @@ class Paper {
         translate(pos.x, pos.y);
         imageMode(CENTER);
         //ellipse(0, 0, this.r);
-        image(this.image, 0, this.r);
+        image(this.image, 0, 0, this.r, this.r);
 
         pop()
 
