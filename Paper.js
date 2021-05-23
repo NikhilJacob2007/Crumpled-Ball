@@ -33,7 +33,7 @@ class Paper {
         translate(pos.x, pos.y);
         imageMode(CENTER);
         //ellipse(0, 0, this.r);
-        image(this.image, 0, 0, this.r, this.r);
+        image(this.image, 0, 0, this.r*4, this.r*4);
 
         pop()
 
