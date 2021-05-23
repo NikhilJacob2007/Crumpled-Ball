@@ -7,7 +7,7 @@ class Paper {
             isStatic:false,
             restitution:0.3,
             friction:0,
-            density:10
+            density:100
 
         }
 
