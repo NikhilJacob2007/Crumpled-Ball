@@ -41,7 +41,7 @@ function keyPressed() {
 
 	if(keyCode === UP_ARROW) {
 
-		Matter.Body.applyForce(paperball1.body,paperball1.body.position, {x:25, y:-18});
+		Matter.Body.applyForce(paperball1.body,paperball1.body.position, {x:2, y:-1});
 
 	}
 
